@@ -14,9 +14,23 @@
 * Календарь выплат по облигациям и дивидендам
 * Расчет денег, которые поступят в течение года
 
+## Описание репозиториев
+
+* `frontend` - веб-приложение, написанное на Flutter
+* `backend-common` - репозиторий, содержащий контракты микросервисов
+* `backend-master` - мастер-сервис, аггрегирующий в себя данные с других сервисов и предоставляющий API для фронтенда
+* `analyzer` - сервис для расчёта статистики
+* `market-wallet` - сервис для интеграции API банков и брокеров
+* `notification` - сервис нотификаций
+
 ## Команда
+
 * Егор Данилов - Тимлид, Backend - Master Service (Gateway и шина данных)
 * Дмитрий Нечитаев - Backend - Market & Wallet Service (Походы в API банка и инвестиций)
 * Дмитрий Вовк - Backend - Analyzer Service (Анализ и прогнозирование расходов\доходов)
 * Глеб Евлахов - Backend - Notifications Service + DevOps
 * Владислав Картунов - Frontend (Flutter)
+
+## Ссылки
+
+* [Презентация](https://docs.google.com/presentation/d/1VmSc-h95fp9Hx_tv0dzNLvfwBzSQoAwHTy1IOUu8yTk/edit?slide=id.gc6f9544c1_0_5#slide=id.gc6f9544c1_0_5)
